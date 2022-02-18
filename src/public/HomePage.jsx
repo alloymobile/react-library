@@ -12,9 +12,9 @@ const appIconLinks = [
 ]
 
 const appIconButtons = [
-    {  id: 1, name: 'Microsoft',className: 'btn btn-primary',icon: faMicrosoft,spin: true},
+    {  id: 1, name: 'Microsoft',className: 'btn btn-primary',appIcon: { icon: faMicrosoft}},
     {  id: 2, name: 'Google',className: 'btn btn-primary'},
-    {  id: 3, name: 'Apple',className: 'btn btn-primary',icon: faApple}
+    {  id: 3, name: 'Apple',className: 'btn btn-primary',appIcon: { icon: faApple}}
 ]
 
 function HomePage() {

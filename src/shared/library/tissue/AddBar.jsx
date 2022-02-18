@@ -4,7 +4,7 @@ import AppIconButton from '../cell/AppIconButton'
 function AddBar(props) {
   return (
     <div>
-        {props.appIconButtons.map((appIconButton)=><AppIconButton appIconButton = {appIconButton} onClick={()=>props.onAddBarClick(appIconButton)}/>)}
+        {props.appIconButtons.map((appIconButton,index)=><AppIconButton   key={appIconButton.id}   appIconButton = {appIconButton} onClick={()=>props.onAddBarClick(appIconButton)}/>)}
     </div>
   )
 }
